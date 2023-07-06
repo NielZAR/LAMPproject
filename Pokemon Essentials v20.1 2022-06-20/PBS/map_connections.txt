@@ -54,9 +54,21 @@
 96,North,0,92,South,100
 # Route 4 (96) - City 3 (93)
 96,West,0,93,East,20
+# Ocean village (113) - Route 3 (112)
+113,East,2,112,West,0
+# Route 4 (114) - Route 3 (112)
+114,South,0,112,North,27
 # Route 1 (107) - Ducklett Haven (106)
 107,South,0,106,North,8
 # Route 2 (108) - Route 1 (107)
 108,East,2,107,West,0
-# Ducklett Haven (106) - Route 3 (112)
-106,0,0,112,81,187
+# Lego Land (115) - Route 4 (114)
+115,West,0,114,East,0
+# Route 5 (116) - Lego Land (115)
+116,West,0,115,East,14
+# Route 6 (119) - Lego Land (115)
+119,West,0,115,East,46
+# Den Helder (118) - Route 5 (116)
+118,West,0,116,East,0
+# Den Helder (118) - Route 6 (119)
+118,West,32,119,East,0
